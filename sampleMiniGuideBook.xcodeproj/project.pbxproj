@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190FCAF71F68FCE1007549E0 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190FCAF61F68FCE1007549E0 /* detailViewController.swift */; };
 		19578F181F67BE5E0044AB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19578F171F67BE5E0044AB75 /* AppDelegate.swift */; };
 		19578F1A1F67BE5E0044AB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19578F191F67BE5E0044AB75 /* ViewController.swift */; };
 		19578F1D1F67BE5E0044AB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19578F1B1F67BE5E0044AB75 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190FCAF61F68FCE1007549E0 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		19578F141F67BE5E0044AB75 /* sampleMiniGuideBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleMiniGuideBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19578F171F67BE5E0044AB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19578F191F67BE5E0044AB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				19578F201F67BE5E0044AB75 /* LaunchScreen.storyboard */,
 				19578F231F67BE5E0044AB75 /* Info.plist */,
 				19578F451F67C3B50044AB75 /* guideList.plist */,
+				190FCAF61F68FCE1007549E0 /* detailViewController.swift */,
 			);
 			path = sampleMiniGuideBook;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				19578F1A1F67BE5E0044AB75 /* ViewController.swift in Sources */,
 				19578F181F67BE5E0044AB75 /* AppDelegate.swift in Sources */,
+				190FCAF71F68FCE1007549E0 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +515,7 @@
 				19578F3E1F67BE5F0044AB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19578F3F1F67BE5F0044AB75 /* Build configuration list for PBXNativeTarget "sampleMiniGuideBookTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				19578F411F67BE5F0044AB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19578F421F67BE5F0044AB75 /* Build configuration list for PBXNativeTarget "sampleMiniGuideBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				19578F441F67BE5F0044AB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

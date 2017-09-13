@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="r0P-7u-wLg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -43,13 +43,52 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wd4-X2-DmV"/>
                     <connections>
                         <outlet property="myTableView" destination="M19-QY-67s" id="JQd-hg-Izj"/>
+                        <segue destination="xx3-ee-DoT" kind="show" identifier="showDetail" id="XOT-ot-qyX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="106.59670164917542"/>
+            <point key="canvasLocation" x="2018.4000000000001" y="106.59670164917542"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Msx-xR-uNO">
+            <objects>
+                <viewController id="xx3-ee-DoT" customClass="detailViewController" customModule="sampleMiniGuideBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pXa-Fu-7n1"/>
+                        <viewControllerLayoutGuide type="bottom" id="HYI-Jd-Fyo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="grf-Cg-Exp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3vn-MD-AX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2922" y="107"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="DsO-yk-jbX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r0P-7u-wLg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="cDJ-bl-Dga"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f6e-4h-SRa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MTE-y4-6QV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4m-8k-fH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079.2" y="106.59670164917542"/>
         </scene>
     </scenes>
 </document>
